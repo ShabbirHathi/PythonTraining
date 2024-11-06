@@ -4,6 +4,11 @@
 # List Basic:
 # Example: Creating a list of numbers
 numbers = [1, 2, 3, 4, 5]
+# num = ( 1, 2, 3, 4, 5 )
+
+# print(type(numbers))
+# print()
+# print(type(num))
 
 # Accessing elements of a list:
 # Indexing: Accessing elements by their index
@@ -12,7 +17,7 @@ last_element = numbers[-1]  # Accessing the last element
 print("First element:", first_element)
 print("Last element:", last_element)
 
-# List Comprehensions / Slicing:
+# List Comprehensions:
 # List comprehensions provide a concise way to create lists.
 # Example: Creating a list of squares of numbers from 1 to 5 using list comprehension
 squares = [x**2 for x in range(1, 6)]  # [1, 4, 9, 16, 25]

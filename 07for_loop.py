@@ -5,7 +5,7 @@
 # The range function generates a sequence of numbers.
 # Syntax: range(start, stop, step)
 # Example: Generating numbers from 0 to 4
-for num in range(5):
+for num in range(10):
     print(num)  # Prints numbers from 0 to 4
 
 # For Loop:
@@ -16,8 +16,10 @@ for fruit in fruits:
 
 # Nested For Loops:
 # Example: Multiplication table using nested for loops
-for i in range(1, 11):
-    for j in range(1, 11):
+for i in range(1, 5):
+    print("inside the first loop")
+    for j in range(1, 4):
+        print("inside the second loop")
         print(i, "*", j, "=", i * j)
     print()  # Prints a blank line after each row of the table
 
@@ -28,6 +30,17 @@ for i in range(1, rows + 1):
     for j in range(1, i + 1):
         print("*", end=" ")
     print()  # Moves to the next line after printing each row
+
+n=5
+for i in range(1, n + 1):
+    # Print leading spaces
+    for j in range(n - i):
+        print(" ", end=" ")
+    
+    # Print asterisks for the current row
+    for k in range(1, 2*i):
+        print("*", end=" ")
+    print()
 
 # Loop Else:
 # The else block is executed when the loop completes normally (i.e., without encountering a break statement).
