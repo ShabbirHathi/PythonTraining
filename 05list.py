@@ -31,6 +31,9 @@ subset = numbers[1:4]  # [2, 3, 4]
 # Example: Adding an element to the end of the list using append() method
 numbers.append(6)  # [1, 2, 3, 4, 5, 6]
 
+# Example: Extending the list by appending elements from another list using extend() method
+numbers.extend([7, 8, 9])  # [7, 8, 9]
+
 # Example: Inserting an element at a specific position using insert() method
 numbers.insert(2, 7)  # [1, 2, 7, 3, 4, 5, 6]
 
@@ -44,6 +47,9 @@ popped_element = numbers.pop(2)  # Removes and returns the element at index 2 (7
 # Example: Finding the index of an element using index() method
 index_of_4 = numbers.index(4)  # Returns the index of the first occurrence of 4 (2)
 
+# Example: Copying the elements of the list using copy() method
+copied_list = numbers.copy()
+
 # Example: Reversing the elements of the list using reverse() method
 numbers.reverse()  # [6, 5, 4, 2, 1]
 
@@ -55,9 +61,6 @@ count_of_5 = numbers.count(5)  # Returns the count of occurrences of 5 (1)
 
 # Example: Clearing all elements from the list using clear() method
 numbers.clear()  # []
-
-# Example: Extending the list by appending elements from another list using extend() method
-numbers.extend([7, 8, 9])  # [7, 8, 9]
 
 # Example: Checking if an element exists in the list using 'in' keyword
 if 7 in numbers:
