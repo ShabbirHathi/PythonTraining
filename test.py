@@ -7,3 +7,7 @@
 # Create a list named fruits containing the names of three fruits of your choice. Print the list.
 # Create a dictionary person with keys "name", "age", and "city". Assign appropriate values and print the dictionary.
 
+
+name = '21'
+is_alphanumeric = name.isalnum()  # Checks if all characters are alphanumeric
+print(is_alphanumeric) # (alph or num) or (alpha and num)
