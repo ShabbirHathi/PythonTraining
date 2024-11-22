@@ -16,7 +16,17 @@
     # Condition A: The person must know the correct username and password.
     # Condition B: The person have admin privileges or not?
     
+# username = "shabbir"
+# password = "shabbir123"
+# admin = True
+
+# name = input("Please enter username:")
+# password1 = input("Please enter password:")
+
+# if password1==password and name==username:
+#     print("Login Successfull")
     
+# elif
     
 # --------------------------- Conditional Statement ---------------------------
 
@@ -43,15 +53,28 @@
 
 # --------------------------- While Loops ---------------------------
 
-# 1) Problem: Write a program that asks the user for a positive integer N and calculates the sum of the numbers from 1 to N using a while loop.
+# 1 ) Problem: Write a program that asks the user for a positive integer N and calculates the sum of the numbers from 1 to N using a loop.
+
+N = int(input("Enter a positive integer: "))
+sum = 0 
+i = 1
+while i <= N: 
+    sum += i 
+    i += 1
+print(f"The sum of numbers from 1 to {N} is {sum}")
+
 
 # 2) Problem: Countdown Timer
     # Create a program that acts as a countdown timer. The program should start from a given number (e.g., 10) and count down to 1, printing each number along the way. When it reaches 0, it should print "Time's up!".
+N = int(input("Enter a positive integer: ")) 
+for i in range(1, N + 1):
     
+    print(i)
+print("time's up")
+
 # 3) Problem: Collecting User Names
     # Write a program that asks the user to enter names. Keep adding names to a list until the user types "stop". Then, print the list of names.
-      
-  
+    
 # --------------------------- For Loops ---------------------------
 
 
@@ -61,6 +84,11 @@
 # 2) Problem:  Sum of List Elements
     # Write a program that calculates and prints the sum of all elements in a list using a for loop.
 
+N = int(input("Enter a positive integer: ")) 
+sum = 0 
+for i in range(1, N + 1):
+    sum += i  
+print(f"The sum of numbers from 1 to {N} is {sum}")
 
 # -----------------------------------Mix Loop----------------------------------
 
